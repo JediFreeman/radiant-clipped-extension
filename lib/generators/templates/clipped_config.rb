@@ -36,6 +36,8 @@ Radiant.config do |config|
   # US East => us-east-1
   # US West => us-west-1
   # config["paperclip.s3.region"] = "us-east-1"
+  # path_style is a parameter for fog that allows buckets with dots in their names
+  # config["paperclip.s3.path_style"] = "false"
 
   # An example of using Rackspace Cloud Files
   # add `gem "fog", "~> 1.0"` to your Gemfile and run `bundle install`

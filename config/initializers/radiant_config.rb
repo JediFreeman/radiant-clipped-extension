@@ -44,6 +44,7 @@ Radiant.config do |config|
                             'US East' => 'us-east-1',
                             'US West' => 'us-west-1'
                           }
+      s3.define 'path_style', :default => 'false'
     end
   end
 

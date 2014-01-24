@@ -10,6 +10,7 @@ module RadiantClippedExtension
           :aws_access_key_id => Radiant.config["paperclip.s3.key"],
           :aws_secret_access_key => Radiant.config["paperclip.s3.secret"],
           :region => Radiant.config["paperclip.s3.region"],
+          :path_style => Radiant.config["paperclip.s3.path_style"]
         }
       when "Google"
         {
